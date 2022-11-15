@@ -21,7 +21,7 @@ function Submenu() {
     },[page, location, links])
 
   return (
-    <aside className={`${isSubmenuOpen ? "submenu show": "submenu" }`}  ref={container}>
+    <aside className={`${isSubmenuOpen ? "submenu show" : "submenu" }`}  ref={container}>
       <section>
         <h4>{page}</h4>
         <div className={`submenu-center ${columns}`}>
