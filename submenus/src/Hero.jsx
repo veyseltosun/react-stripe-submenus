@@ -8,7 +8,7 @@ function Hero() {
 
   return (
      
-     <section className='hero'>
+     <section className='hero' onMouseOver={closeSubmenu}>
       <div className='hero-center'>
         <article className='hero-info'>
           <h1>Payments infrastructure
@@ -29,4 +29,4 @@ function Hero() {
 
 }
 
-export default Hero
+export default Hero;

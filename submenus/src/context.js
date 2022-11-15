@@ -19,7 +19,7 @@ const AppProvider = ({children}) =>{
         setLocation(coordinates);
         setIsSubmenuOpen(true);
 
-        setIsSubmenuOpen(true);
+        
     }
     const closeSubmenu = () =>{
         setIsSubmenuOpen(false);
